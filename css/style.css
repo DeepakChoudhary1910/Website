@@ -133,12 +133,19 @@ sup {
   top: -.5em; }
 
 a {
-  color: #007bff;
+  color: white;
   text-decoration: none;
   background-color: transparent; }
+
   a:hover {
-    color: #0056b3;
+    color: white;
     text-decoration: underline; }
+
+    a:visited {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -8011,10 +8018,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #0075f6; }
+  color: white; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #0075f6;
+    color: white;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
